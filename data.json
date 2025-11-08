@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 1,
+  "count": 2,
   "data": [
+    {
+      "date": "08.11.2025 20:03:11",
+      "name": "апвп",
+      "phone": "+79889213228",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "notes": ""
+    },
     {
       "date": "08.11.2025 19:22:59",
       "name": "dwd",
@@ -15,16 +26,16 @@
     }
   ],
   "stats": {
-    "under18": 1,
+    "under18": 2,
     "day28": 0,
     "day29": 0,
-    "both": 1,
+    "both": 2,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "42 дн. 4 ч. 19 мин."
+      "message": "11 дн. 3 ч. 43 мин."
     },
-    "endDate": "2025-12-20T23:59:59.000Z",
-    "lastUpdate": "2025-11-08T19:40:54.049Z"
+    "endDate": "2025-11-20T00:00:00.000Z",
+    "lastUpdate": "2025-11-08T20:16:25.138Z"
   }
 }
