@@ -1,7 +1,20 @@
 {
   "success": true,
-  "count": 6,
+  "count": 7,
   "data": [
+    {
+      "date": "08.11.2025 22:11:16",
+      "name": "лох",
+      "phone": "23521521421",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "personalDataConsent": "Да",
+      "consentDate": "08.11.2025, 22:10:55",
+      "notes": ""
+    },
     {
       "date": "08.11.2025 22:10:51",
       "name": "аргент",
@@ -82,16 +95,16 @@
     }
   ],
   "stats": {
-    "under18": 5,
+    "under18": 6,
     "day28": 0,
     "day29": 1,
-    "both": 5,
+    "both": 6,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "11 дн. 1 ч. 49 мин."
+      "message": "11 дн. 1 ч. 48 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-08T22:10:51.979Z"
+    "lastUpdate": "2025-11-08T22:11:16.412Z"
   }
 }
