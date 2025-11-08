@@ -1,110 +1,18 @@
 {
   "success": true,
-  "count": 7,
-  "data": [
-    {
-      "date": "08.11.2025 22:11:16",
-      "name": "лох",
-      "phone": "23521521421",
-      "age": "14",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "Да",
-      "consentDate": "08.11.2025, 22:10:55",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 22:10:51",
-      "name": "аргент",
-      "phone": "+79889213228",
-      "age": "20",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата по карте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "Да",
-      "consentDate": "08.11.2025, 22:09:52",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 21:41:20",
-      "name": "лох бобр",
-      "phone": "жа",
-      "age": "12",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "Да",
-      "consentDate": "08.11.2025, 21:40:54",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 21:26:29",
-      "name": "Бен бен",
-      "phone": "+79889213228",
-      "age": "14",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "Да",
-      "consentDate": "08.11.2025, 21:25:40",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 20:32:27",
-      "name": "аргентовский вениамин",
-      "phone": "+79889213228",
-      "age": "16",
-      "conferenceDay": "29 ноября",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "",
-      "consentDate": "",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 20:03:11",
-      "name": "апвп",
-      "phone": "+79889213228",
-      "age": "15",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "",
-      "consentDate": "",
-      "notes": ""
-    },
-    {
-      "date": "08.11.2025 19:22:59",
-      "name": "dwd",
-      "phone": "+79889213228",
-      "age": "12",
-      "conferenceDay": "28-29 ноября (оба дня)",
-      "accommodation": "Нет",
-      "payment": "Оплата наличными на месте",
-      "telegram": "BenjARG",
-      "personalDataConsent": "",
-      "consentDate": "",
-      "notes": ""
-    }
-  ],
+  "count": 0,
+  "data": [],
   "stats": {
-    "under18": 6,
+    "under18": 0,
     "day28": 0,
-    "day29": 1,
-    "both": 6,
+    "day29": 0,
+    "both": 0,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "11 дн. 1 ч. 48 мин."
+      "message": "42 дн. 1 ч. 10 мин."
     },
-    "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-08T22:11:16.412Z"
+    "endDate": "2025-12-20T23:59:59.000Z",
+    "lastUpdate": "2025-11-08T22:49:19.605Z"
   }
 }
