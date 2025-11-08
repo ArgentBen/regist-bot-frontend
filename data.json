@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 2,
+  "count": 3,
   "data": [
+    {
+      "date": "08.11.2025 20:32:27",
+      "name": "аргентовский вениамин",
+      "phone": "+79889213228",
+      "age": "16",
+      "conferenceDay": "29 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "notes": ""
+    },
     {
       "date": "08.11.2025 20:03:11",
       "name": "апвп",
@@ -26,16 +37,16 @@
     }
   ],
   "stats": {
-    "under18": 2,
+    "under18": 3,
     "day28": 0,
-    "day29": 0,
+    "day29": 1,
     "both": 2,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "11 дн. 3 ч. 43 мин."
+      "message": "11 дн. 3 ч. 27 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-08T20:16:25.138Z"
+    "lastUpdate": "2025-11-08T20:32:27.451Z"
   }
 }
