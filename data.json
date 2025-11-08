@@ -1,18 +1,30 @@
 {
   "success": true,
-  "count": 0,
-  "data": [],
+  "count": 1,
+  "data": [
+    {
+      "date": "08.11.2025 22:50:35",
+      "name": "Аргентовский Вениамин Михаилович",
+      "phone": "+79889213228",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "notes": ""
+    }
+  ],
   "stats": {
     "under18": 0,
     "day28": 0,
     "day29": 0,
-    "both": 0,
+    "both": 1,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "42 дн. 1 ч. 10 мин."
+      "message": "11 дн. 1 ч. 9 мин."
     },
-    "endDate": "2025-12-20T23:59:59.000Z",
-    "lastUpdate": "2025-11-08T22:49:19.605Z"
+    "endDate": "2025-11-20T00:00:00.000Z",
+    "lastUpdate": "2025-11-08T22:50:35.116Z"
   }
 }
