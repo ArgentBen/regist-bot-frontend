@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрации на конференцию</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            min-width: 120px;
+        }
+        
+        .stat-item .label {
+            font-size: 0.85em;
+            opacity: 0.9;
+        }
+        
+        .stat-item .value {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        .stat-item.warning {
+            background: rgba(255, 193, 7, 0.3);
+        }
+        
+        .stat-item.danger {
+            background: rgba(220, 53, 69, 0.3);
+        }
+        
+        .timer {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 15px 25px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            margin-top: 15px;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+        
+        .timer.closed {
+            background: rgba(220, 53, 69, 0.4);
+        }
+        
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .auto-refresh {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .auto-refresh input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .refresh-btn, .download-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .refresh-btn:hover, .download-btn:hover {
+            background: #5568d3;
+        }
+        
+        .download-btn {
+            background: #28a745;
+        }
+        
+        .download-btn:hover {
+            background: #218838;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .status {
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        
+        .status.loading {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .table-container {
+            padding: 30px;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+        }
+        
+        thead {
+            background: #f8f9fa;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            white-space: nowrap;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        tbody tr {
+            transition: background 0.2s;
+        }
+        
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+        
+        tbody tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        tbody tr:nth-child(even):hover {
+            background: #e9ecef;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+        
+        .badge.yes {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .badge.no {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .badge.card {
+            background: #cfe2ff;
+            color: #084298;
+        }
+        
+        .badge.cash {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #6c757d;
+        }
+        
+        .config-section {
+            padding: 20px 30px;
+            background: #fff3cd;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .config-section input {
+            padding: 8px 12px;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 500px;
+            margin-top: 5px;
+        }
+        
+        .config-section label {
+            font-weight: 600;
+            display: block;
+            margin-top: 10px;
+        }
+        
+        .config-section button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .stat-item {
+                padding: 10px 15px;
+            }
+            
+            .stat-item .value {
+                font-size: 1.5em;
+            }
+            
+            .table-container {
+                padding: 15px;
+            }
+            
+            table {
+                font-size: 0.85em;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="config-section">
+            <label>API URL (адрес вашего сервера Beget):</label>
+            <input type="text" id="apiUrl" placeholder="https://ваш-домен.ru" value="">
+            <button onclick="saveConfig()">Сохранить</button>
+            <small style="display: block; margin-top: 5px; color: #856404;">
+                Укажите адрес вашего сервера Beget, где запущен бот (например: https://ваш-домен.ru или http://ваш-домен.ru:3000)
+            </small>
+        </div>
+        
+        <div class="header">
+            <h1>📊 Регистрации на конференцию</h1>
+            <p>"В поисках настоящего богатства"</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="label">Всего регистраций</div>
+                    <div class="value" id="totalCount">0</div>
+                </div>
+                <div class="stat-item warning">
+                    <div class="label">Меньше 18 лет</div>
+                    <div class="value" id="under18Count">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="label">28 ноября</div>
+                    <div class="value" id="day28Count">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="label">29 ноября</div>
+                    <div class="value" id="day29Count">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="label">Оба дня</div>
+                    <div class="value" id="bothDaysCount">0</div>
+                </div>
+                <div class="stat-item">
+                    <div class="label">Нужен ночлег</div>
+                    <div class="value" id="accommodationCount">0</div>
+                </div>
+            </div>
+            <div class="timer" id="timer">
+                ⏰ До конца регистрации: <span id="timerText">загрузка...</span>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="auto-refresh">
+                <input type="checkbox" id="autoRefresh" checked>
+                <label for="autoRefresh">Автообновление (каждые 5 сек)</label>
+            </div>
+            <div class="btn-group">
+                <button class="refresh-btn" onclick="loadData()">🔄 Обновить</button>
+                <a href="#" class="download-btn" onclick="downloadCsv(event)">📥 Скачать CSV</a>
+            </div>
+            <div class="status loading" id="status">Загрузка данных...</div>
+        </div>
+        
+        <div class="table-container">
+            <div id="tableContent">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Дата регистрации</th>
+                            <th>ФИО</th>
+                            <th>Телефон</th>
+                            <th>Возраст</th>
+                            <th>День конференции</th>
+                            <th>Ночлег</th>
+                            <th>Оплата</th>
+                            <th>Telegram</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td colspan="9" class="empty-state">
+                                <div>Загрузка данных...</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Загружаем сохраненный API URL
+        let API_URL = localStorage.getItem('apiUrl') || '';
+        if (API_URL) {
+            document.getElementById('apiUrl').value = API_URL;
+        }
+        
+        let autoRefreshInterval = null;
+        let registrationEndDate = null;
+        
+        function saveConfig() {
+            const apiUrl = document.getElementById('apiUrl').value.trim();
+            if (apiUrl) {
+                API_URL = apiUrl;
+                localStorage.setItem('apiUrl', apiUrl);
+                alert('Настройки сохранены!');
+                loadData();
+            } else {
+                alert('Введите API URL!');
+            }
+        }
+        
+        function updateStatus(message, type) {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            statusEl.className = 'status ' + type;
+        }
+        
+        function updateStats(data, stats) {
+            document.getElementById('totalCount').textContent = data.length;
+            
+            const under18 = stats ? stats.under18 : data.filter(r => {
+                const age = parseInt(r.age);
+                return !isNaN(age) && age < 18;
+            }).length;
+            document.getElementById('under18Count').textContent = under18;
+            
+            const day28 = data.filter(r => r.conferenceDay && r.conferenceDay.includes('28 ноября') && !r.conferenceDay.includes('оба дня')).length;
+            const day29 = data.filter(r => r.conferenceDay && r.conferenceDay.includes('29 ноября') && !r.conferenceDay.includes('оба дня')).length;
+            const both = data.filter(r => r.conferenceDay && r.conferenceDay.includes('оба дня')).length;
+            const accommodation = data.filter(r => r.accommodation === 'Да').length;
+            
+            document.getElementById('day28Count').textContent = day28;
+            document.getElementById('day29Count').textContent = day29;
+            document.getElementById('bothDaysCount').textContent = both;
+            document.getElementById('accommodationCount').textContent = accommodation;
+            
+            if (stats && stats.remainingTime) {
+                updateTimer(stats.remainingTime);
+            }
+        }
+        
+        function updateTimer(remainingTime) {
+            const timerEl = document.getElementById('timer');
+            const timerText = document.getElementById('timerText');
+            
+            if (remainingTime.closed) {
+                timerEl.className = 'timer closed';
+                timerText.textContent = 'Регистрация закрыта';
+            } else {
+                timerEl.className = 'timer';
+                timerText.textContent = remainingTime.message;
+            }
+        }
+        
+        function initTimer(endDate) {
+            registrationEndDate = new Date(endDate);
+            
+            setInterval(() => {
+                const now = new Date();
+                const diff = registrationEndDate - now;
+                
+                if (diff <= 0) {
+                    updateTimer({
+                        closed: true,
+                        message: 'Регистрация закрыта'
+                    });
+                } else {
+                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+                    
+                    updateTimer({
+                        closed: false,
+                        message: `${days} дн. ${hours} ч. ${minutes} мин. ${seconds} сек.`
+                    });
+                }
+            }, 1000);
+        }
+        
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            return dateStr;
+        }
+        
+        function loadData() {
+            if (!API_URL) {
+                updateStatus('⚠️ Укажите API URL в настройках выше', 'error');
+                return;
+            }
+            
+            updateStatus('Загрузка данных...', 'loading');
+            
+            fetch(`${API_URL}/api/registrations`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(result => {
+                    if (result.success) {
+                        const data = result.data.reverse();
+                        const tbody = document.getElementById('tableBody');
+                        
+                        if (data.length === 0) {
+                            tbody.innerHTML = '<tr><td colspan="9" class="empty-state"><div>📭 Пока нет зарегистрированных участников</div></td></tr>';
+                            updateStats([], result.stats || {});
+                        } else {
+                            tbody.innerHTML = data.map((reg, index) => {
+                                const age = parseInt(reg.age);
+                                const isUnder18 = !isNaN(age) && age < 18;
+                                return `
+                                <tr>
+                                    <td>${data.length - index}</td>
+                                    <td>${formatDate(reg.date)}</td>
+                                    <td><strong>${reg.name || '-'}${isUnder18 ? ' ⚠️' : ''}</strong></td>
+                                    <td>${reg.phone || '-'}</td>
+                                    <td>${reg.age || '-'}</td>
+                                    <td>${reg.conferenceDay || '-'}</td>
+                                    <td>
+                                        <span class="badge ${reg.accommodation === 'Да' ? 'yes' : 'no'}">
+                                            ${reg.accommodation || 'Нет'}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="badge ${reg.payment && reg.payment.includes('карте') ? 'card' : 'cash'}">
+                                            ${reg.payment || '-'}
+                                        </span>
+                                    </td>
+                                    <td>${reg.telegram || '-'}</td>
+                                </tr>
+                            `;
+                            }).join('');
+                            
+                            updateStats(data, result.stats || {});
+                            updateStatus(`Данные обновлены: ${new Date().toLocaleTimeString('ru-RU')}`, 'success');
+                            
+                            if (result.stats && result.stats.endDate) {
+                                initTimer(result.stats.endDate);
+                            }
+                        }
+                    } else {
+                        throw new Error(result.error || 'Ошибка загрузки данных');
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    updateStatus('Ошибка загрузки данных: ' + error.message, 'error');
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="9" class="empty-state"><div>❌ Ошибка загрузки данных. Проверьте API URL и доступность сервера.</div></td></tr>';
+                });
+        }
+        
+        function downloadCsv(event) {
+            event.preventDefault();
+            if (!API_URL) {
+                alert('Укажите API URL в настройках!');
+                return;
+            }
+            window.open(`${API_URL}/api/download`, '_blank');
+        }
+        
+        function setupAutoRefresh() {
+            const checkbox = document.getElementById('autoRefresh');
+            
+            checkbox.addEventListener('change', function() {
+                if (this.checked) {
+                    autoRefreshInterval = setInterval(loadData, 5000);
+                    loadData();
+                } else {
+                    if (autoRefreshInterval) {
+                        clearInterval(autoRefreshInterval);
+                        autoRefreshInterval = null;
+                    }
+                }
+            });
+            
+            if (checkbox.checked) {
+                autoRefreshInterval = setInterval(loadData, 5000);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            if (API_URL) {
+                loadData();
+                setupAutoRefresh();
+            } else {
+                updateStatus('⚠️ Укажите API URL в настройках выше', 'error');
+            }
+        });
+    </script>
+</body>
+</html>
+
