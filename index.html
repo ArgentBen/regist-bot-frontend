@@ -246,35 +246,12 @@
             color: #6c757d;
         }
         
-        .config-section {
-            padding: 20px 30px;
-            background: #fff3cd;
-            border-bottom: 1px solid #dee2e6;
-        }
-        
-        .config-section input {
-            padding: 8px 12px;
-            border: 1px solid #dee2e6;
-            border-radius: 4px;
-            width: 100%;
-            max-width: 500px;
-            margin-top: 5px;
-        }
-        
-        .config-section label {
-            font-weight: 600;
-            display: block;
-            margin-top: 10px;
-        }
-        
-        .config-section button {
-            background: #667eea;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 10px;
+        .last-update {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.85em;
         }
         
         @media (max-width: 768px) {
@@ -306,15 +283,6 @@
 </head>
 <body>
     <div class="container">
-        <div class="config-section">
-            <label>API URL (адрес вашего сервера Beget):</label>
-            <input type="text" id="apiUrl" placeholder="https://ваш-домен.ru" value="">
-            <button onclick="saveConfig()">Сохранить</button>
-            <small style="display: block; margin-top: 5px; color: #856404;">
-                Укажите адрес вашего сервера Beget, где запущен бот (например: https://ваш-домен.ru или http://ваш-домен.ru:3000)
-            </small>
-        </div>
-        
         <div class="header">
             <h1>📊 Регистрации на конференцию</h1>
             <p>"В поисках настоящего богатства"</p>
@@ -352,11 +320,11 @@
         <div class="controls">
             <div class="auto-refresh">
                 <input type="checkbox" id="autoRefresh" checked>
-                <label for="autoRefresh">Автообновление (каждые 5 сек)</label>
+                <label for="autoRefresh">Автообновление (каждые 30 сек)</label>
             </div>
             <div class="btn-group">
                 <button class="refresh-btn" onclick="loadData()">🔄 Обновить</button>
-                <a href="#" class="download-btn" onclick="downloadCsv(event)">📥 Скачать CSV</a>
+                <a href="data.json" class="download-btn" download="registrations.json">📥 Скачать JSON</a>
             </div>
             <div class="status loading" id="status">Загрузка данных...</div>
         </div>
@@ -387,29 +355,15 @@
                 </table>
             </div>
         </div>
+        
+        <div class="last-update" id="lastUpdate">
+            Последнее обновление: загрузка...
+        </div>
     </div>
     
     <script>
-        // Загружаем сохраненный API URL
-        let API_URL = localStorage.getItem('apiUrl') || '';
-        if (API_URL) {
-            document.getElementById('apiUrl').value = API_URL;
-        }
-        
         let autoRefreshInterval = null;
         let registrationEndDate = null;
-        
-        function saveConfig() {
-            const apiUrl = document.getElementById('apiUrl').value.trim();
-            if (apiUrl) {
-                API_URL = apiUrl;
-                localStorage.setItem('apiUrl', apiUrl);
-                alert('Настройки сохранены!');
-                loadData();
-            } else {
-                alert('Введите API URL!');
-            }
-        }
         
         function updateStatus(message, type) {
             const statusEl = document.getElementById('status');
@@ -426,10 +380,10 @@
             }).length;
             document.getElementById('under18Count').textContent = under18;
             
-            const day28 = data.filter(r => r.conferenceDay && r.conferenceDay.includes('28 ноября') && !r.conferenceDay.includes('оба дня')).length;
-            const day29 = data.filter(r => r.conferenceDay && r.conferenceDay.includes('29 ноября') && !r.conferenceDay.includes('оба дня')).length;
-            const both = data.filter(r => r.conferenceDay && r.conferenceDay.includes('оба дня')).length;
-            const accommodation = data.filter(r => r.accommodation === 'Да').length;
+            const day28 = stats ? stats.day28 : data.filter(r => r.conferenceDay && r.conferenceDay.includes('28 ноября') && !r.conferenceDay.includes('оба дня')).length;
+            const day29 = stats ? stats.day29 : data.filter(r => r.conferenceDay && r.conferenceDay.includes('29 ноября') && !r.conferenceDay.includes('оба дня')).length;
+            const both = stats ? stats.both : data.filter(r => r.conferenceDay && r.conferenceDay.includes('оба дня')).length;
+            const accommodation = stats ? stats.accommodation : data.filter(r => r.accommodation === 'Да').length;
             
             document.getElementById('day28Count').textContent = day28;
             document.getElementById('day29Count').textContent = day29;
@@ -438,6 +392,19 @@
             
             if (stats && stats.remainingTime) {
                 updateTimer(stats.remainingTime);
+            }
+            
+            // Обновляем информацию о последнем обновлении
+            if (stats && stats.lastUpdate) {
+                const updateDate = new Date(stats.lastUpdate);
+                document.getElementById('lastUpdate').textContent = 
+                    `Последнее обновление: ${updateDate.toLocaleString('ru-RU', { 
+                        day: '2-digit', 
+                        month: '2-digit', 
+                        year: 'numeric', 
+                        hour: '2-digit', 
+                        minute: '2-digit' 
+                    })}`;
             }
         }
         
@@ -486,14 +453,10 @@
         }
         
         function loadData() {
-            if (!API_URL) {
-                updateStatus('⚠️ Укажите API URL в настройках выше', 'error');
-                return;
-            }
-            
             updateStatus('Загрузка данных...', 'loading');
             
-            fetch(`${API_URL}/api/registrations`)
+            // Загружаем данные из data.json (статический файл в репозитории)
+            fetch('data.json?' + new Date().getTime())
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
@@ -502,7 +465,7 @@
                 })
                 .then(result => {
                     if (result.success) {
-                        const data = result.data.reverse();
+                        const data = result.data || [];
                         const tbody = document.getElementById('tableBody');
                         
                         if (data.length === 0) {
@@ -549,17 +512,8 @@
                 .catch(error => {
                     console.error('Ошибка:', error);
                     updateStatus('Ошибка загрузки данных: ' + error.message, 'error');
-                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="9" class="empty-state"><div>❌ Ошибка загрузки данных. Проверьте API URL и доступность сервера.</div></td></tr>';
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="9" class="empty-state"><div>❌ Ошибка загрузки данных. Убедитесь, что файл data.json существует в репозитории.</div></td></tr>';
                 });
-        }
-        
-        function downloadCsv(event) {
-            event.preventDefault();
-            if (!API_URL) {
-                alert('Укажите API URL в настройках!');
-                return;
-            }
-            window.open(`${API_URL}/api/download`, '_blank');
         }
         
         function setupAutoRefresh() {
@@ -567,7 +521,7 @@
             
             checkbox.addEventListener('change', function() {
                 if (this.checked) {
-                    autoRefreshInterval = setInterval(loadData, 5000);
+                    autoRefreshInterval = setInterval(loadData, 30000); // 30 секунд
                     loadData();
                 } else {
                     if (autoRefreshInterval) {
@@ -578,17 +532,13 @@
             });
             
             if (checkbox.checked) {
-                autoRefreshInterval = setInterval(loadData, 5000);
+                autoRefreshInterval = setInterval(loadData, 30000); // 30 секунд
             }
         }
         
         document.addEventListener('DOMContentLoaded', function() {
-            if (API_URL) {
-                loadData();
-                setupAutoRefresh();
-            } else {
-                updateStatus('⚠️ Укажите API URL в настройках выше', 'error');
-            }
+            loadData();
+            setupAutoRefresh();
         });
     </script>
 </body>
