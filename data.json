@@ -1,7 +1,20 @@
 {
   "success": true,
-  "count": 3,
+  "count": 4,
   "data": [
+    {
+      "date": "08.11.2025 21:26:29",
+      "name": "Бен бен",
+      "phone": "+79889213228",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "personalDataConsent": "Да",
+      "consentDate": "08.11.2025, 21:25:40",
+      "notes": ""
+    },
     {
       "date": "08.11.2025 20:32:27",
       "name": "аргентовский вениамин",
@@ -11,6 +24,8 @@
       "accommodation": "Нет",
       "payment": "Оплата наличными на месте",
       "telegram": "BenjARG",
+      "personalDataConsent": "",
+      "consentDate": "",
       "notes": ""
     },
     {
@@ -22,6 +37,8 @@
       "accommodation": "Нет",
       "payment": "Оплата наличными на месте",
       "telegram": "BenjARG",
+      "personalDataConsent": "",
+      "consentDate": "",
       "notes": ""
     },
     {
@@ -33,20 +50,22 @@
       "accommodation": "Нет",
       "payment": "Оплата наличными на месте",
       "telegram": "BenjARG",
+      "personalDataConsent": "",
+      "consentDate": "",
       "notes": ""
     }
   ],
   "stats": {
-    "under18": 3,
+    "under18": 4,
     "day28": 0,
     "day29": 1,
-    "both": 2,
+    "both": 3,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "11 дн. 3 ч. 27 мин."
+      "message": "11 дн. 2 ч. 33 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-08T20:32:27.451Z"
+    "lastUpdate": "2025-11-08T21:26:29.790Z"
   }
 }
