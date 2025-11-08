@@ -324,7 +324,7 @@
             </div>
             <div class="btn-group">
                 <button class="refresh-btn" onclick="loadData()">🔄 Обновить</button>
-                <a href="data.json" class="download-btn" download="registrations.json">📥 Скачать JSON</a>
+                <button class="download-btn" onclick="downloadCsv()">📥 Скачать CSV</button>
             </div>
             <div class="status loading" id="status">Загрузка данных...</div>
         </div>
@@ -343,11 +343,13 @@
                             <th>Ночлег</th>
                             <th>Оплата</th>
                             <th>Telegram</th>
+                            <th>Согласие на обработку ПД</th>
+                            <th>Дата согласия</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody">
                         <tr>
-                            <td colspan="9" class="empty-state">
+                            <td colspan="11" class="empty-state">
                                 <div>Загрузка данных...</div>
                             </td>
                         </tr>
@@ -364,6 +366,7 @@
     <script>
         let autoRefreshInterval = null;
         let registrationEndDate = null;
+        let currentData = []; // Сохраняем текущие данные для экспорта в CSV
         
         function updateStatus(message, type) {
             const statusEl = document.getElementById('status');
@@ -466,10 +469,11 @@
                 .then(result => {
                     if (result.success) {
                         const data = result.data || [];
+                        currentData = data; // Сохраняем данные для экспорта
                         const tbody = document.getElementById('tableBody');
                         
                         if (data.length === 0) {
-                            tbody.innerHTML = '<tr><td colspan="9" class="empty-state"><div>📭 Пока нет зарегистрированных участников</div></td></tr>';
+                            tbody.innerHTML = '<tr><td colspan="11" class="empty-state"><div>📭 Пока нет зарегистрированных участников</div></td></tr>';
                             updateStats([], result.stats || {});
                         } else {
                             tbody.innerHTML = data.map((reg, index) => {
@@ -494,6 +498,8 @@
                                         </span>
                                     </td>
                                     <td>${reg.telegram || '-'}</td>
+                                    <td>${reg.personalDataConsent || '-'}</td>
+                                    <td>${reg.consentDate ? new Date(reg.consentDate).toLocaleString('ru-RU') : '-'}</td>
                                 </tr>
                             `;
                             }).join('');
@@ -512,7 +518,7 @@
                 .catch(error => {
                     console.error('Ошибка:', error);
                     updateStatus('Ошибка загрузки данных: ' + error.message, 'error');
-                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="9" class="empty-state"><div>❌ Ошибка загрузки данных. Убедитесь, что файл data.json существует в репозитории.</div></td></tr>';
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="11" class="empty-state"><div>❌ Ошибка загрузки данных. Убедитесь, что файл data.json существует в репозитории.</div></td></tr>';
                 });
         }
         
@@ -533,6 +539,101 @@
             
             if (checkbox.checked) {
                 autoRefreshInterval = setInterval(loadData, 30000); // 30 секунд
+            }
+        }
+        
+        // Функция для преобразования данных в CSV формат
+        function convertToCsv(data) {
+            // Заголовки CSV (соответствуют storage-csv.js)
+            const headers = [
+                'Дата регистрации',
+                'ФИО',
+                'Телефон',
+                'Возраст',
+                'День конференции',
+                'Ночлег',
+                'Оплата',
+                'Telegram ID',
+                'Согласие на обработку ПД',
+                'Дата согласия',
+                'Примечания'
+            ];
+            
+            // Функция для экранирования значений CSV
+            function escapeCsvValue(value) {
+                if (value === null || value === undefined || value === '') {
+                    return '""';
+                }
+                const stringValue = String(value);
+                // Если значение содержит разделитель, кавычки или перенос строки, оборачиваем в кавычки
+                if (stringValue.includes(';') || stringValue.includes('"') || stringValue.includes('\n')) {
+                    return `"${stringValue.replace(/"/g, '""')}"`; // Экранируем кавычки
+                }
+                return `"${stringValue}"`;
+            }
+            
+            // Формируем строку заголовков
+            const headerRow = headers.map(escapeCsvValue).join(';');
+            
+            // Формируем строки данных
+            const dataRows = data.map(reg => {
+                return [
+                    reg.date || '',
+                    reg.name || '',
+                    reg.phone || '',
+                    reg.age || '',
+                    reg.conferenceDay || '',
+                    reg.accommodation || 'Нет',
+                    reg.payment || '',
+                    reg.telegram || '',
+                    reg.personalDataConsent || '',
+                    reg.consentDate || '',
+                    reg.notes || ''
+                ].map(escapeCsvValue).join(';');
+            });
+            
+            // Объединяем все строки
+            const csvContent = [headerRow, ...dataRows].join('\n');
+            
+            // Добавляем BOM для правильного отображения кириллицы в Excel
+            const BOM = '\uFEFF';
+            return BOM + csvContent;
+        }
+        
+        // Функция для скачивания CSV файла
+        function downloadCsv() {
+            if (currentData.length === 0) {
+                alert('Нет данных для скачивания');
+                return;
+            }
+            
+            try {
+                // Преобразуем данные в CSV
+                const csvContent = convertToCsv(currentData);
+                
+                // Создаем Blob с CSV данными
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                
+                // Создаем ссылку для скачивания
+                const link = document.createElement('a');
+                const url = URL.createObjectURL(blob);
+                
+                link.setAttribute('href', url);
+                link.setAttribute('download', `registrations_${new Date().toISOString().split('T')[0]}.csv`);
+                link.style.visibility = 'hidden';
+                
+                // Добавляем ссылку на страницу и кликаем по ней
+                document.body.appendChild(link);
+                link.click();
+                
+                // Удаляем ссылку и освобождаем память
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                
+                updateStatus('CSV файл успешно скачан!', 'success');
+            } catch (error) {
+                console.error('Ошибка при создании CSV файла:', error);
+                updateStatus('Ошибка при создании CSV файла: ' + error.message, 'error');
             }
         }
         
