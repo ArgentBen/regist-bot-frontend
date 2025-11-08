@@ -343,13 +343,11 @@
                             <th>Ночлег</th>
                             <th>Оплата</th>
                             <th>Telegram</th>
-                            <th>Согласие на обработку ПД</th>
-                            <th>Дата согласия</th>
                         </tr>
                     </thead>
                     <tbody id="tableBody">
                         <tr>
-                            <td colspan="11" class="empty-state">
+                            <td colspan="9" class="empty-state">
                                 <div>Загрузка данных...</div>
                             </td>
                         </tr>
@@ -473,7 +471,7 @@
                         const tbody = document.getElementById('tableBody');
                         
                         if (data.length === 0) {
-                            tbody.innerHTML = '<tr><td colspan="11" class="empty-state"><div>📭 Пока нет зарегистрированных участников</div></td></tr>';
+                            tbody.innerHTML = '<tr><td colspan="9" class="empty-state"><div>📭 Пока нет зарегистрированных участников</div></td></tr>';
                             updateStats([], result.stats || {});
                         } else {
                             tbody.innerHTML = data.map((reg, index) => {
@@ -498,8 +496,6 @@
                                         </span>
                                     </td>
                                     <td>${reg.telegram || '-'}</td>
-                                    <td>${reg.personalDataConsent || '-'}</td>
-                                    <td>${reg.consentDate ? new Date(reg.consentDate).toLocaleString('ru-RU') : '-'}</td>
                                 </tr>
                             `;
                             }).join('');
@@ -518,7 +514,7 @@
                 .catch(error => {
                     console.error('Ошибка:', error);
                     updateStatus('Ошибка загрузки данных: ' + error.message, 'error');
-                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="11" class="empty-state"><div>❌ Ошибка загрузки данных. Убедитесь, что файл data.json существует в репозитории.</div></td></tr>';
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="9" class="empty-state"><div>❌ Ошибка загрузки данных. Убедитесь, что файл data.json существует в репозитории.</div></td></tr>';
                 });
         }
         
@@ -554,8 +550,6 @@
                 'Ночлег',
                 'Оплата',
                 'Telegram ID',
-                'Согласие на обработку ПД',
-                'Дата согласия',
                 'Примечания'
             ];
             
@@ -586,8 +580,6 @@
                     reg.accommodation || 'Нет',
                     reg.payment || '',
                     reg.telegram || '',
-                    reg.personalDataConsent || '',
-                    reg.consentDate || '',
                     reg.notes || ''
                 ].map(escapeCsvValue).join(';');
             });
