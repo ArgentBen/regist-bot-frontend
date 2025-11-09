@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 4,
+  "count": 5,
   "data": [
+    {
+      "date": "09.11.2025 06:40:20",
+      "name": "Аргентовский Сергей Михайлович",
+      "phone": "79889359785",
+      "age": "21",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Serj07Sa",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 05:37:43",
       "name": "Аргентовский Михаил Михайлович",
@@ -51,13 +62,13 @@
     "under18": 0,
     "day28": 0,
     "day29": 0,
-    "both": 4,
+    "both": 5,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 18 ч. 22 мин."
+      "message": "10 дн. 17 ч. 19 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T05:37:43.345Z"
+    "lastUpdate": "2025-11-09T06:40:20.215Z"
   }
 }
