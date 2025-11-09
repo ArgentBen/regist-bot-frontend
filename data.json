@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 1,
+  "count": 2,
   "data": [
+    {
+      "date": "09.11.2025 05:33:46",
+      "name": "Гематова Асия Руслановна",
+      "phone": "+79998072802",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "blessed_heart1",
+      "notes": ""
+    },
     {
       "date": "08.11.2025 22:50:35",
       "name": "Аргентовский Вениамин Михаилович",
@@ -18,13 +29,13 @@
     "under18": 0,
     "day28": 0,
     "day29": 0,
-    "both": 1,
+    "both": 2,
     "accommodation": 0,
     "remainingTime": {
       "closed": false,
-      "message": "11 дн. 1 ч. 9 мин."
+      "message": "10 дн. 18 ч. 26 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-08T22:50:35.116Z"
+    "lastUpdate": "2025-11-09T05:33:46.695Z"
   }
 }
