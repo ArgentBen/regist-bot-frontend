@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 6,
+  "count": 7,
   "data": [
+    {
+      "date": "09.11.2025 10:02:34",
+      "name": "Ковалева Татьяна Павловна",
+      "phone": "79658840152",
+      "age": "24",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "@mercyme0",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 08:35:18",
       "name": "Сучков Павел Михайлович",
@@ -73,13 +84,13 @@
     "under18": 0,
     "day28": 0,
     "day29": 0,
-    "both": 6,
+    "both": 7,
     "accommodation": 1,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 15 ч. 24 мин."
+      "message": "10 дн. 13 ч. 57 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T08:35:18.241Z"
+    "lastUpdate": "2025-11-09T10:02:34.688Z"
   }
 }
