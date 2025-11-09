@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 12,
+  "count": 13,
   "data": [
+    {
+      "date": "09.11.2025 17:37:12",
+      "name": "Веляев Савелий Игоревич",
+      "phone": "89026599775",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Alphineo",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 17:08:43",
       "name": "Федорчук Алексей Витальевич",
@@ -139,13 +150,13 @@
     "under18": 1,
     "day28": 1,
     "day29": 0,
-    "both": 11,
-    "accommodation": 3,
+    "both": 12,
+    "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 6 ч. 51 мин."
+      "message": "10 дн. 6 ч. 22 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T17:08:43.802Z"
+    "lastUpdate": "2025-11-09T17:37:12.301Z"
   }
 }
