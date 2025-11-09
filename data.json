@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 9,
+  "count": 10,
   "data": [
+    {
+      "date": "09.11.2025 16:21:38",
+      "name": "Захарченко Марк Сергеевич",
+      "phone": "79093775330",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "Markus_zaha",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 15:40:26",
       "name": "Селиверстова Виктория Александровна",
@@ -106,13 +117,13 @@
     "under18": 0,
     "day28": 1,
     "day29": 0,
-    "both": 8,
-    "accommodation": 1,
+    "both": 9,
+    "accommodation": 2,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 8 ч. 19 мин."
+      "message": "10 дн. 7 ч. 38 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T15:40:26.452Z"
+    "lastUpdate": "2025-11-09T16:21:38.615Z"
   }
 }
