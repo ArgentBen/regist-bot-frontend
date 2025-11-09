@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 11,
+  "count": 12,
   "data": [
+    {
+      "date": "09.11.2025 17:08:43",
+      "name": "Федорчук Алексей Витальевич",
+      "phone": "79371471560",
+      "age": "38",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Alekseu87",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 17:05:23",
       "name": "Самарин Евгений Николаевич",
@@ -128,13 +139,13 @@
     "under18": 1,
     "day28": 1,
     "day29": 0,
-    "both": 10,
+    "both": 11,
     "accommodation": 3,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 6 ч. 54 мин."
+      "message": "10 дн. 6 ч. 51 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T17:05:23.388Z"
+    "lastUpdate": "2025-11-09T17:08:43.802Z"
   }
 }
