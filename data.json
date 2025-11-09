@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 8,
+  "count": 9,
   "data": [
+    {
+      "date": "09.11.2025 15:40:26",
+      "name": "Селиверстова Виктория Александровна",
+      "phone": "79539775717",
+      "age": "22",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Vikasmotrit",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 14:23:03",
       "name": "Пугачев Андрей",
@@ -95,13 +106,13 @@
     "under18": 0,
     "day28": 1,
     "day29": 0,
-    "both": 7,
+    "both": 8,
     "accommodation": 1,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 9 ч. 36 мин."
+      "message": "10 дн. 8 ч. 19 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T14:23:03.245Z"
+    "lastUpdate": "2025-11-09T15:40:26.452Z"
   }
 }
