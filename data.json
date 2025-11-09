@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 5,
+  "count": 6,
   "data": [
+    {
+      "date": "09.11.2025 08:35:18",
+      "name": "Сучков Павел Михайлович",
+      "phone": "79649986642",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Pashtet_SuchkoV",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 06:40:20",
       "name": "Аргентовский Сергей Михайлович",
@@ -62,13 +73,13 @@
     "under18": 0,
     "day28": 0,
     "day29": 0,
-    "both": 5,
-    "accommodation": 0,
+    "both": 6,
+    "accommodation": 1,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 17 ч. 19 мин."
+      "message": "10 дн. 15 ч. 24 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T06:40:20.215Z"
+    "lastUpdate": "2025-11-09T08:35:18.241Z"
   }
 }
