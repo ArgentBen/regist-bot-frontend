@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 15,
+  "count": 16,
   "data": [
+    {
+      "date": "10.11.2025 19:03:53",
+      "name": "Новикова Полина Александровна",
+      "phone": "+79279160065",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "polinka_5566",
+      "notes": ""
+    },
     {
       "date": "10.11.2025 13:11:39",
       "name": "Петинин Андрей Николаевич",
@@ -169,16 +180,16 @@
     }
   ],
   "stats": {
-    "under18": 1,
+    "under18": 2,
     "day28": 1,
     "day29": 0,
-    "both": 14,
+    "both": 15,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "9 дн. 10 ч. 48 мин."
+      "message": "9 дн. 4 ч. 56 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-10T13:11:39.455Z"
+    "lastUpdate": "2025-11-10T19:03:53.457Z"
   }
 }
