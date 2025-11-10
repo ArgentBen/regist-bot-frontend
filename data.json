@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 14,
+  "count": 15,
   "data": [
+    {
+      "date": "10.11.2025 13:11:39",
+      "name": "Петинин Андрей Николаевич",
+      "phone": "79170224319",
+      "age": "32",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "AndreyPetinin",
+      "notes": ""
+    },
     {
       "date": "10.11.2025 08:01:16",
       "name": "Петинина Диана Сергеевна",
@@ -161,13 +172,13 @@
     "under18": 1,
     "day28": 1,
     "day29": 0,
-    "both": 13,
+    "both": 14,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "9 дн. 15 ч. 58 мин."
+      "message": "9 дн. 10 ч. 48 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-10T08:01:16.069Z"
+    "lastUpdate": "2025-11-10T13:11:39.455Z"
   }
 }
