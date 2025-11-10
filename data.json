@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 13,
+  "count": 14,
   "data": [
+    {
+      "date": "10.11.2025 08:01:16",
+      "name": "Петинина Диана Сергеевна",
+      "phone": "79873063792",
+      "age": "34",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "DianaPetinina",
+      "notes": ""
+    },
     {
       "date": "09.11.2025 17:37:12",
       "name": "Веляев Савелий Игоревич",
@@ -150,13 +161,13 @@
     "under18": 1,
     "day28": 1,
     "day29": 0,
-    "both": 12,
+    "both": 13,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "10 дн. 6 ч. 22 мин."
+      "message": "9 дн. 15 ч. 58 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-09T17:37:12.301Z"
+    "lastUpdate": "2025-11-10T08:01:16.069Z"
   }
 }
