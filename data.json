@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 16,
+  "count": 17,
   "data": [
+    {
+      "date": "10.11.2025 20:56:13",
+      "name": "Григорьев Александр Викторович",
+      "phone": "79093388780",
+      "age": "54",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "AlexGrigV",
+      "notes": ""
+    },
     {
       "date": "10.11.2025 19:03:53",
       "name": "Новикова Полина Александровна",
@@ -183,13 +194,13 @@
     "under18": 2,
     "day28": 1,
     "day29": 0,
-    "both": 15,
+    "both": 16,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "9 дн. 4 ч. 56 мин."
+      "message": "9 дн. 3 ч. 3 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-10T19:03:53.457Z"
+    "lastUpdate": "2025-11-10T20:56:13.375Z"
   }
 }
