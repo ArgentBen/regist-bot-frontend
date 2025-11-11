@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 17,
+  "count": 18,
   "data": [
+    {
+      "date": "11.11.2025 14:59:38",
+      "name": "Гасенко Никита Александрович",
+      "phone": "89873250947",
+      "age": "23",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "ZI_TOBI",
+      "notes": ""
+    },
     {
       "date": "10.11.2025 20:56:13",
       "name": "Григорьев Александр Викторович",
@@ -192,15 +203,15 @@
   ],
   "stats": {
     "under18": 2,
-    "day28": 1,
+    "day28": 2,
     "day29": 0,
     "both": 16,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "9 дн. 3 ч. 3 мин."
+      "message": "8 дн. 9 ч. 0 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-10T20:56:13.375Z"
+    "lastUpdate": "2025-11-11T14:59:38.549Z"
   }
 }
