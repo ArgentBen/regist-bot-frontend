@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 19,
+  "count": 20,
   "data": [
+    {
+      "date": "11.11.2025 15:00:48",
+      "name": "Нигматьянова Даная Евгеньевна",
+      "phone": "8 919 837 10 91",
+      "age": "14",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id7900659188",
+      "notes": ""
+    },
     {
       "date": "11.11.2025 14:59:41",
       "name": "Нигматьянов Давид Евгеньевич",
@@ -213,16 +224,16 @@
     }
   ],
   "stats": {
-    "under18": 3,
-    "day28": 3,
+    "under18": 4,
+    "day28": 4,
     "day29": 0,
     "both": 16,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "8 дн. 9 ч. 0 мин."
+      "message": "8 дн. 8 ч. 59 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-11T14:59:41.134Z"
+    "lastUpdate": "2025-11-11T15:00:48.439Z"
   }
 }
