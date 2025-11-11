@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 20,
+  "count": 21,
   "data": [
+    {
+      "date": "11.11.2025 18:22:03",
+      "name": "Смотров Александр Петрович",
+      "phone": "89873822067",
+      "age": "29",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Sannn2525",
+      "notes": ""
+    },
     {
       "date": "11.11.2025 15:00:48",
       "name": "Нигматьянова Даная Евгеньевна",
@@ -227,13 +238,13 @@
     "under18": 4,
     "day28": 4,
     "day29": 0,
-    "both": 16,
+    "both": 17,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "8 дн. 8 ч. 59 мин."
+      "message": "8 дн. 5 ч. 37 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-11T15:00:48.439Z"
+    "lastUpdate": "2025-11-11T18:22:03.480Z"
   }
 }
