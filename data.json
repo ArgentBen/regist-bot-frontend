@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 21,
+  "count": 22,
   "data": [
+    {
+      "date": "13.11.2025 09:58:27",
+      "name": "Проверка записи",
+      "phone": "+79889213228",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "notes": ""
+    },
     {
       "date": "11.11.2025 18:22:03",
       "name": "Смотров Александр Петрович",
@@ -238,13 +249,13 @@
     "under18": 4,
     "day28": 4,
     "day29": 0,
-    "both": 17,
+    "both": 18,
     "accommodation": 4,
     "remainingTime": {
       "closed": false,
-      "message": "8 дн. 5 ч. 37 мин."
+      "message": "6 дн. 14 ч. 1 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-11T18:22:03.480Z"
+    "lastUpdate": "2025-11-13T09:58:27.708Z"
   }
 }
