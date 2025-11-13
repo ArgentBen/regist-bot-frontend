@@ -3,6 +3,17 @@
   "count": 22,
   "data": [
     {
+      "date": "13.11.2025 13:06:03",
+      "name": "Карпов Илья Александрович",
+      "phone": "79875141861",
+      "age": "23",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Karich123",
+      "notes": ""
+    },
+    {
       "date": "11.11.2025 18:22:03",
       "name": "Смотров Александр Петрович",
       "phone": "89873822067",
@@ -239,12 +250,12 @@
     "day28": 4,
     "day29": 0,
     "both": 18,
-    "accommodation": 4,
+    "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 14 ч. 1 мин."
+      "message": "6 дн. 10 ч. 53 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-13T09:58:27.708Z"
+    "lastUpdate": "2025-11-13T13:06:03.628Z"
   }
 }
