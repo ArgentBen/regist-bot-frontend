@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 29,
+  "count": 30,
   "data": [
+    {
+      "date": "14.11.2025 09:18:41",
+      "name": "Аргентовская Таня",
+      "phone": "79020414040",
+      "age": "24",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "cosmostata",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 09:06:45",
       "name": "Фролов Алексей Александрович",
@@ -326,13 +337,13 @@
     "under18": 7,
     "day28": 4,
     "day29": 0,
-    "both": 25,
+    "both": 26,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 14 ч. 53 мин."
+      "message": "5 дн. 14 ч. 41 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T09:06:45.125Z"
+    "lastUpdate": "2025-11-14T09:18:41.619Z"
   }
 }
