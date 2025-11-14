@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 34,
+  "count": 35,
   "data": [
+    {
+      "date": "14.11.2025 15:06:57",
+      "name": "Базыкина Лилия Анатольевна",
+      "phone": "89873853902",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "liliamoroz",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 13:54:34",
       "name": "Грибков Марк Викторович",
@@ -381,13 +392,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 30,
-    "accommodation": 6,
+    "both": 31,
+    "accommodation": 7,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 10 ч. 5 мин."
+      "message": "5 дн. 8 ч. 53 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T13:54:34.677Z"
+    "lastUpdate": "2025-11-14T15:06:57.913Z"
   }
 }
