@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 32,
+  "count": 33,
   "data": [
+    {
+      "date": "14.11.2025 11:56:36",
+      "name": "Фролов Александр Александрович",
+      "phone": "79003135074",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Alex_Fr_A",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 11:47:40",
       "name": "Шаповалов Ростислав Витальевич",
@@ -359,13 +370,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 28,
+    "both": 29,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 12 ч. 12 мин."
+      "message": "5 дн. 12 ч. 3 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T11:47:40.815Z"
+    "lastUpdate": "2025-11-14T11:56:36.833Z"
   }
 }
