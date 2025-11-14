@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 35,
+  "count": 36,
   "data": [
+    {
+      "date": "14.11.2025 15:09:49",
+      "name": "Кочкурова Полина Александровна",
+      "phone": "+79003109744",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "gh12345678o",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 15:06:57",
       "name": "Базыкина Лилия Анатольевна",
@@ -392,13 +403,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 31,
-    "accommodation": 7,
+    "both": 32,
+    "accommodation": 8,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 8 ч. 53 мин."
+      "message": "5 дн. 8 ч. 50 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T15:06:57.913Z"
+    "lastUpdate": "2025-11-14T15:09:49.727Z"
   }
 }
