@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 38,
+  "count": 39,
   "data": [
+    {
+      "date": "14.11.2025 18:24:24",
+      "name": "Гредякина Света Алексеевна",
+      "phone": "+79524980991",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id5785647563",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 15:32:22",
       "name": "Курина Мария Сергеевна",
@@ -422,16 +433,16 @@
     }
   ],
   "stats": {
-    "under18": 9,
+    "under18": 10,
     "day28": 4,
     "day29": 0,
-    "both": 34,
-    "accommodation": 8,
+    "both": 35,
+    "accommodation": 9,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 8 ч. 27 мин."
+      "message": "5 дн. 5 ч. 35 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T15:32:22.081Z"
+    "lastUpdate": "2025-11-14T18:24:24.193Z"
   }
 }
