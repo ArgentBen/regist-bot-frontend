@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 39,
+  "count": 40,
   "data": [
+    {
+      "date": "14.11.2025 18:42:12",
+      "name": "Патваканян Артур Араевич",
+      "phone": "79063111700",
+      "age": "32",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id776390785",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 18:24:24",
       "name": "Гредякина Света Алексеевна",
@@ -436,13 +447,13 @@
     "under18": 10,
     "day28": 4,
     "day29": 0,
-    "both": 35,
-    "accommodation": 9,
+    "both": 36,
+    "accommodation": 10,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 5 ч. 35 мин."
+      "message": "5 дн. 5 ч. 17 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T18:24:24.193Z"
+    "lastUpdate": "2025-11-14T18:42:12.938Z"
   }
 }
