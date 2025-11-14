@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 30,
+  "count": 31,
   "data": [
+    {
+      "date": "14.11.2025 10:23:51",
+      "name": "Морозов Вадим Валерьевич",
+      "phone": "+79626257359",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "I_am_a_man_of_God",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 09:18:41",
       "name": "Аргентовская Таня",
@@ -334,16 +345,16 @@
     }
   ],
   "stats": {
-    "under18": 7,
+    "under18": 8,
     "day28": 4,
     "day29": 0,
-    "both": 26,
+    "both": 27,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 14 ч. 41 мин."
+      "message": "5 дн. 13 ч. 36 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T09:18:41.619Z"
+    "lastUpdate": "2025-11-14T10:23:51.739Z"
   }
 }
