@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 28,
+  "count": 29,
   "data": [
+    {
+      "date": "14.11.2025 09:06:45",
+      "name": "Фролов Алексей Александрович",
+      "phone": "89536313896",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id6510934236",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 08:51:47",
       "name": "Курникова Александра Александровна",
@@ -312,16 +323,16 @@
     }
   ],
   "stats": {
-    "under18": 6,
+    "under18": 7,
     "day28": 4,
     "day29": 0,
-    "both": 24,
+    "both": 25,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 15 ч. 8 мин."
+      "message": "5 дн. 14 ч. 53 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T08:51:47.805Z"
+    "lastUpdate": "2025-11-14T09:06:45.125Z"
   }
 }
