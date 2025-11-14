@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 27,
+  "count": 28,
   "data": [
+    {
+      "date": "14.11.2025 08:51:47",
+      "name": "Курникова Александра Александровна",
+      "phone": "79873542117",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Bdhfyfkd",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 08:14:00",
       "name": "Лукьянов Тимофей Ильич",
@@ -304,13 +315,13 @@
     "under18": 6,
     "day28": 4,
     "day29": 0,
-    "both": 23,
+    "both": 24,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 15 ч. 45 мин."
+      "message": "5 дн. 15 ч. 8 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T08:14:00.335Z"
+    "lastUpdate": "2025-11-14T08:51:47.805Z"
   }
 }
