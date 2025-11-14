@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 33,
+  "count": 34,
   "data": [
+    {
+      "date": "14.11.2025 13:54:34",
+      "name": "Грибков Марк Викторович",
+      "phone": "79950255752",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "manunyag",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 11:56:36",
       "name": "Фролов Александр Александрович",
@@ -370,13 +381,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 29,
-    "accommodation": 5,
+    "both": 30,
+    "accommodation": 6,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 12 ч. 3 мин."
+      "message": "5 дн. 10 ч. 5 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T11:56:36.833Z"
+    "lastUpdate": "2025-11-14T13:54:34.677Z"
   }
 }
