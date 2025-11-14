@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 37,
+  "count": 38,
   "data": [
+    {
+      "date": "14.11.2025 15:32:22",
+      "name": "Курина Мария Сергеевна",
+      "phone": "+79083225847",
+      "age": "25",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "kurinamaria",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 15:25:14",
       "name": "Шишкина Полина Александровна",
@@ -414,13 +425,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 33,
+    "both": 34,
     "accommodation": 8,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 8 ч. 34 мин."
+      "message": "5 дн. 8 ч. 27 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T15:25:14.223Z"
+    "lastUpdate": "2025-11-14T15:32:22.081Z"
   }
 }
