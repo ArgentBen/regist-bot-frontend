@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 22,
+  "count": 23,
   "data": [
+    {
+      "date": "14.11.2025 08:04:01",
+      "name": "Попова Василиса Владиславовна",
+      "phone": "79967261447",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "id1628888115",
+      "notes": ""
+    },
     {
       "date": "13.11.2025 13:06:03",
       "name": "Карпов Илья Александрович",
@@ -249,13 +260,13 @@
     "under18": 4,
     "day28": 4,
     "day29": 0,
-    "both": 18,
+    "both": 19,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 10 ч. 53 мин."
+      "message": "5 дн. 15 ч. 55 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-13T13:06:03.628Z"
+    "lastUpdate": "2025-11-14T08:04:01.495Z"
   }
 }
