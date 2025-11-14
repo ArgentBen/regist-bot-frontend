@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 24,
+  "count": 25,
   "data": [
+    {
+      "date": "14.11.2025 08:10:34",
+      "name": "Морозов Николай Валерьевич",
+      "phone": "89878056193",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "N1kM0r",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 08:09:58",
       "name": "Петропавлова Василиса Викторовна",
@@ -271,13 +282,13 @@
     "under18": 4,
     "day28": 4,
     "day29": 0,
-    "both": 20,
+    "both": 21,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 15 ч. 50 мин."
+      "message": "5 дн. 15 ч. 49 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T08:09:58.568Z"
+    "lastUpdate": "2025-11-14T08:10:34.760Z"
   }
 }
