@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 36,
+  "count": 37,
   "data": [
+    {
+      "date": "14.11.2025 15:25:14",
+      "name": "Шишкина Полина Александровна",
+      "phone": "+79170375192",
+      "age": "21",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "polinaviolin108",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 15:09:49",
       "name": "Кочкурова Полина Александровна",
@@ -403,13 +414,13 @@
     "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 32,
+    "both": 33,
     "accommodation": 8,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 8 ч. 50 мин."
+      "message": "5 дн. 8 ч. 34 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T15:09:49.727Z"
+    "lastUpdate": "2025-11-14T15:25:14.223Z"
   }
 }
