@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 26,
+  "count": 27,
   "data": [
+    {
+      "date": "14.11.2025 08:14:00",
+      "name": "Лукьянов Тимофей Ильич",
+      "phone": "79271040605",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "dashenkaluk",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 08:11:15",
       "name": "Лукьянова Дарья Ильинична",
@@ -290,16 +301,16 @@
     }
   ],
   "stats": {
-    "under18": 5,
+    "under18": 6,
     "day28": 4,
     "day29": 0,
-    "both": 22,
+    "both": 23,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 15 ч. 48 мин."
+      "message": "5 дн. 15 ч. 45 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T08:11:15.347Z"
+    "lastUpdate": "2025-11-14T08:14:00.335Z"
   }
 }
