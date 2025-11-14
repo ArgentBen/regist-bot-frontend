@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 31,
+  "count": 32,
   "data": [
+    {
+      "date": "14.11.2025 11:47:40",
+      "name": "Шаповалов Ростислав Витальевич",
+      "phone": "+79873354504",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "soundengineer64",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 10:23:51",
       "name": "Морозов Вадим Валерьевич",
@@ -345,16 +356,16 @@
     }
   ],
   "stats": {
-    "under18": 8,
+    "under18": 9,
     "day28": 4,
     "day29": 0,
-    "both": 27,
+    "both": 28,
     "accommodation": 5,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 13 ч. 36 мин."
+      "message": "5 дн. 12 ч. 12 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T10:23:51.739Z"
+    "lastUpdate": "2025-11-14T11:47:40.815Z"
   }
 }
