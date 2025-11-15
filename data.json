@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 43,
+  "count": 44,
   "data": [
+    {
+      "date": "15.11.2025 12:44:52",
+      "name": "Лобанова Ульяна Евгеньевна",
+      "phone": "89370836727",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Ulanalobanova",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 10:55:12",
       "name": "Казанцев Александр Владимирович",
@@ -477,16 +488,16 @@
     }
   ],
   "stats": {
-    "under18": 12,
+    "under18": 13,
     "day28": 4,
     "day29": 0,
-    "both": 39,
+    "both": 40,
     "accommodation": 12,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 13 ч. 4 мин."
+      "message": "4 дн. 11 ч. 15 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T10:55:12.575Z"
+    "lastUpdate": "2025-11-15T12:44:52.812Z"
   }
 }
