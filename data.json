@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 46,
+  "count": 47,
   "data": [
+    {
+      "date": "15.11.2025 18:33:12",
+      "name": "Сухорукова Анна Алексеевна",
+      "phone": "89873264303",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "id6649261498",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 16:19:12",
       "name": "Смирнова Ангелина Сергеевна",
@@ -510,16 +521,16 @@
     }
   ],
   "stats": {
-    "under18": 14,
+    "under18": 15,
     "day28": 4,
     "day29": 0,
-    "both": 42,
-    "accommodation": 13,
+    "both": 43,
+    "accommodation": 14,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 7 ч. 40 мин."
+      "message": "4 дн. 5 ч. 26 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T16:19:12.089Z"
+    "lastUpdate": "2025-11-15T18:33:12.803Z"
   }
 }
