@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 40,
+  "count": 41,
   "data": [
+    {
+      "date": "15.11.2025 09:29:35",
+      "name": "Джапариди Янис Алексеевич",
+      "phone": "89649939751",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id373801991",
+      "notes": ""
+    },
     {
       "date": "14.11.2025 18:42:12",
       "name": "Патваканян Артур Араевич",
@@ -444,16 +455,16 @@
     }
   ],
   "stats": {
-    "under18": 10,
+    "under18": 11,
     "day28": 4,
     "day29": 0,
-    "both": 36,
-    "accommodation": 10,
+    "both": 37,
+    "accommodation": 11,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 5 ч. 17 мин."
+      "message": "4 дн. 14 ч. 30 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-14T18:42:12.938Z"
+    "lastUpdate": "2025-11-15T09:29:35.840Z"
   }
 }
