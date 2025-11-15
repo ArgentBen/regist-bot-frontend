@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 41,
+  "count": 42,
   "data": [
+    {
+      "date": "15.11.2025 09:30:31",
+      "name": "Джапариди София Алексеевна",
+      "phone": "89649939751",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id373801991",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 09:29:35",
       "name": "Джапариди Янис Алексеевич",
@@ -455,16 +466,16 @@
     }
   ],
   "stats": {
-    "under18": 11,
+    "under18": 12,
     "day28": 4,
     "day29": 0,
-    "both": 37,
-    "accommodation": 11,
+    "both": 38,
+    "accommodation": 12,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 14 ч. 30 мин."
+      "message": "4 дн. 14 ч. 29 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T09:29:35.840Z"
+    "lastUpdate": "2025-11-15T09:30:31.095Z"
   }
 }
