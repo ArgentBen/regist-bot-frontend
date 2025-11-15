@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 42,
+  "count": 43,
   "data": [
+    {
+      "date": "15.11.2025 10:55:12",
+      "name": "Казанцев Александр Владимирович",
+      "phone": "+79603538046",
+      "age": "21",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "san4ez778",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 09:30:31",
       "name": "Джапариди София Алексеевна",
@@ -469,13 +480,13 @@
     "under18": 12,
     "day28": 4,
     "day29": 0,
-    "both": 38,
+    "both": 39,
     "accommodation": 12,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 14 ч. 29 мин."
+      "message": "4 дн. 13 ч. 4 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T09:30:31.095Z"
+    "lastUpdate": "2025-11-15T10:55:12.575Z"
   }
 }
