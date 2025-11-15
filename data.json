@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 44,
+  "count": 45,
   "data": [
+    {
+      "date": "15.11.2025 15:49:03",
+      "name": "Шишкина Галина Сергеевна",
+      "phone": "+79649955138",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "swigkk12",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 12:44:52",
       "name": "Лобанова Ульяна Евгеньевна",
@@ -491,13 +502,13 @@
     "under18": 13,
     "day28": 4,
     "day29": 0,
-    "both": 40,
+    "both": 41,
     "accommodation": 12,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 11 ч. 15 мин."
+      "message": "4 дн. 8 ч. 10 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T12:44:52.812Z"
+    "lastUpdate": "2025-11-15T15:49:03.452Z"
   }
 }
