@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 45,
+  "count": 46,
   "data": [
+    {
+      "date": "15.11.2025 16:19:12",
+      "name": "Смирнова Ангелина Сергеевна",
+      "phone": "89678055065",
+      "age": "12",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id776390785",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 15:49:03",
       "name": "Шишкина Галина Сергеевна",
@@ -499,16 +510,16 @@
     }
   ],
   "stats": {
-    "under18": 13,
+    "under18": 14,
     "day28": 4,
     "day29": 0,
-    "both": 41,
-    "accommodation": 12,
+    "both": 42,
+    "accommodation": 13,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 8 ч. 10 мин."
+      "message": "4 дн. 7 ч. 40 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T15:49:03.452Z"
+    "lastUpdate": "2025-11-15T16:19:12.089Z"
   }
 }
