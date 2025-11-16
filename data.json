@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 53,
+  "count": 54,
   "data": [
+    {
+      "date": "16.11.2025 14:01:11",
+      "name": "Селиверстова Полина Александровна",
+      "phone": "79536328049",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Dream_Chu",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 12:03:39",
       "name": "Савочкина Дарья Сергеевна",
@@ -587,16 +598,16 @@
     }
   ],
   "stats": {
-    "under18": 17,
+    "under18": 18,
     "day28": 4,
     "day29": 0,
-    "both": 49,
-    "accommodation": 17,
+    "both": 50,
+    "accommodation": 18,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 11 ч. 56 мин."
+      "message": "3 дн. 9 ч. 58 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T12:03:39.069Z"
+    "lastUpdate": "2025-11-16T14:01:11.700Z"
   }
 }
