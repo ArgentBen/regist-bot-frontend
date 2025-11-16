@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 52,
+  "count": 53,
   "data": [
+    {
+      "date": "16.11.2025 12:03:39",
+      "name": "Савочкина Дарья Сергеевна",
+      "phone": "79124605934",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Darlochkaa",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 11:54:02",
       "name": "Лазуркин Александр Алексеевич",
@@ -579,13 +590,13 @@
     "under18": 17,
     "day28": 4,
     "day29": 0,
-    "both": 48,
+    "both": 49,
     "accommodation": 17,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 12 ч. 5 мин."
+      "message": "3 дн. 11 ч. 56 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T11:54:02.124Z"
+    "lastUpdate": "2025-11-16T12:03:39.069Z"
   }
 }
