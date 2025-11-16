@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 47,
+  "count": 48,
   "data": [
+    {
+      "date": "16.11.2025 07:35:14",
+      "name": "Курина Нина Сергеевна.",
+      "phone": "79538374907",
+      "age": "22",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "agent_007_cot",
+      "notes": ""
+    },
     {
       "date": "15.11.2025 18:33:12",
       "name": "Сухорукова Анна Алексеевна",
@@ -524,13 +535,13 @@
     "under18": 15,
     "day28": 4,
     "day29": 0,
-    "both": 43,
+    "both": 44,
     "accommodation": 14,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 5 ч. 26 мин."
+      "message": "3 дн. 16 ч. 24 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-15T18:33:12.803Z"
+    "lastUpdate": "2025-11-16T07:35:14.374Z"
   }
 }
