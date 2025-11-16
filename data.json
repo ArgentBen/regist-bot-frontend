@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 49,
+  "count": 50,
   "data": [
+    {
+      "date": "16.11.2025 11:48:34",
+      "name": "Лазуркина Эмилия Алексеевна",
+      "phone": "79044127555",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "Milichka17",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 09:02:00",
       "name": "Недоростков Александр Николаевич",
@@ -546,13 +557,13 @@
     "under18": 15,
     "day28": 4,
     "day29": 0,
-    "both": 45,
-    "accommodation": 14,
+    "both": 46,
+    "accommodation": 15,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 14 ч. 57 мин."
+      "message": "3 дн. 12 ч. 11 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T09:02:00.710Z"
+    "lastUpdate": "2025-11-16T11:48:34.153Z"
   }
 }
