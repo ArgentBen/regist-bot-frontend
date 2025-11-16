@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 48,
+  "count": 49,
   "data": [
+    {
+      "date": "16.11.2025 09:02:00",
+      "name": "Недоростков Александр Николаевич",
+      "phone": "79873638691",
+      "age": "27",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Aleksandr_Nedorostkov",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 07:35:14",
       "name": "Курина Нина Сергеевна.",
@@ -535,13 +546,13 @@
     "under18": 15,
     "day28": 4,
     "day29": 0,
-    "both": 44,
+    "both": 45,
     "accommodation": 14,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 16 ч. 24 мин."
+      "message": "3 дн. 14 ч. 57 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T07:35:14.374Z"
+    "lastUpdate": "2025-11-16T09:02:00.710Z"
   }
 }
