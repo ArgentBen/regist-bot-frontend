@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 51,
+  "count": 52,
   "data": [
+    {
+      "date": "16.11.2025 11:54:02",
+      "name": "Лазуркин Александр Алексеевич",
+      "phone": "+79044206375",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Milichka17",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 11:52:33",
       "name": "Лазуркина Ангелина Алексеевна",
@@ -565,16 +576,16 @@
     }
   ],
   "stats": {
-    "under18": 16,
+    "under18": 17,
     "day28": 4,
     "day29": 0,
-    "both": 47,
-    "accommodation": 16,
+    "both": 48,
+    "accommodation": 17,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 12 ч. 7 мин."
+      "message": "3 дн. 12 ч. 5 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T11:52:33.060Z"
+    "lastUpdate": "2025-11-16T11:54:02.124Z"
   }
 }
