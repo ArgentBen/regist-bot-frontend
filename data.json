@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 56,
+  "count": 57,
   "data": [
+    {
+      "date": "17.11.2025 11:07:27",
+      "name": "Зиновьева Анастасия Андреевна",
+      "phone": "79173057745",
+      "age": "16",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Nastya_blessed",
+      "notes": ""
+    },
     {
       "date": "17.11.2025 09:08:58",
       "name": "Петросова Дана Андреевна",
@@ -620,16 +631,16 @@
     }
   ],
   "stats": {
-    "under18": 19,
+    "under18": 20,
     "day28": 4,
     "day29": 0,
-    "both": 52,
+    "both": 53,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 14 ч. 51 мин."
+      "message": "2 дн. 12 ч. 52 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-17T09:08:58.557Z"
+    "lastUpdate": "2025-11-17T11:07:27.590Z"
   }
 }
