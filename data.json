@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 54,
+  "count": 55,
   "data": [
+    {
+      "date": "17.11.2025 06:33:55",
+      "name": "Лобанова Юлия Евгеньевна",
+      "phone": "+79026512088",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "Ulanalobanova",
+      "notes": ""
+    },
     {
       "date": "16.11.2025 14:01:11",
       "name": "Селиверстова Полина Александровна",
@@ -598,16 +609,16 @@
     }
   ],
   "stats": {
-    "under18": 18,
+    "under18": 19,
     "day28": 4,
     "day29": 0,
-    "both": 50,
-    "accommodation": 18,
+    "both": 51,
+    "accommodation": 19,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 9 ч. 58 мин."
+      "message": "2 дн. 17 ч. 26 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-16T14:01:11.700Z"
+    "lastUpdate": "2025-11-17T06:33:55.883Z"
   }
 }
