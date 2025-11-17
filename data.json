@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 55,
+  "count": 56,
   "data": [
+    {
+      "date": "17.11.2025 09:08:58",
+      "name": "Петросова Дана Андреевна",
+      "phone": "+79173163455",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "pelmavar",
+      "notes": ""
+    },
     {
       "date": "17.11.2025 06:33:55",
       "name": "Лобанова Юлия Евгеньевна",
@@ -612,13 +623,13 @@
     "under18": 19,
     "day28": 4,
     "day29": 0,
-    "both": 51,
-    "accommodation": 19,
+    "both": 52,
+    "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 17 ч. 26 мин."
+      "message": "2 дн. 14 ч. 51 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-17T06:33:55.883Z"
+    "lastUpdate": "2025-11-17T09:08:58.557Z"
   }
 }
