@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 57,
+  "count": 58,
   "data": [
+    {
+      "date": "17.11.2025 12:56:49",
+      "name": "Маслов Сергей Николаевич, Маслов Иван Сергеевич.",
+      "phone": "89279155205",
+      "age": "17",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "SeregaPokrovsk",
+      "notes": ""
+    },
     {
       "date": "17.11.2025 11:07:27",
       "name": "Зиновьева Анастасия Андреевна",
@@ -631,16 +642,16 @@
     }
   ],
   "stats": {
-    "under18": 20,
+    "under18": 21,
     "day28": 4,
     "day29": 0,
-    "both": 53,
+    "both": 54,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 12 ч. 52 мин."
+      "message": "2 дн. 11 ч. 3 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-17T11:07:27.590Z"
+    "lastUpdate": "2025-11-17T12:56:49.121Z"
   }
 }
