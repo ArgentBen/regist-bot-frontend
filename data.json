@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 59,
+  "count": 60,
   "data": [
+    {
+      "date": "18.11.2025 08:10:40",
+      "name": "Петропавлов Андрей Кириллович",
+      "phone": "89536330887",
+      "age": "15",
+      "conferenceDay": "29 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "id6328220144",
+      "notes": ""
+    },
     {
       "date": "17.11.2025 15:39:20",
       "name": "Кушнаренко Виталий Владиславович",
@@ -653,16 +664,16 @@
     }
   ],
   "stats": {
-    "under18": 21,
+    "under18": 22,
     "day28": 4,
-    "day29": 0,
+    "day29": 1,
     "both": 55,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 8 ч. 20 мин."
+      "message": "1 дн. 15 ч. 49 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-17T15:39:20.238Z"
+    "lastUpdate": "2025-11-18T08:10:40.987Z"
   }
 }
