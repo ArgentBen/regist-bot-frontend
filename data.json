@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 61,
+  "count": 62,
   "data": [
+    {
+      "date": "18.11.2025 14:23:35",
+      "name": "Курина Мария Александровна",
+      "phone": "+79678074741",
+      "age": "23",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "maresya0812",
+      "notes": ""
+    },
     {
       "date": "18.11.2025 14:21:24",
       "name": "Курин Давид Сергеевич",
@@ -678,13 +689,13 @@
     "under18": 22,
     "day28": 4,
     "day29": 1,
-    "both": 56,
+    "both": 57,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 9 ч. 38 мин."
+      "message": "1 дн. 9 ч. 36 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-18T14:21:24.156Z"
+    "lastUpdate": "2025-11-18T14:23:35.975Z"
   }
 }
