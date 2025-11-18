@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 60,
+  "count": 61,
   "data": [
+    {
+      "date": "18.11.2025 14:21:24",
+      "name": "Курин Давид Сергеевич",
+      "phone": "+79538332341",
+      "age": "26",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "maresya0812",
+      "notes": ""
+    },
     {
       "date": "18.11.2025 08:10:40",
       "name": "Петропавлов Андрей Кириллович",
@@ -667,13 +678,13 @@
     "under18": 22,
     "day28": 4,
     "day29": 1,
-    "both": 55,
+    "both": 56,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 15 ч. 49 мин."
+      "message": "1 дн. 9 ч. 38 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-18T08:10:40.987Z"
+    "lastUpdate": "2025-11-18T14:21:24.156Z"
   }
 }
