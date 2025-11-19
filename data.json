@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 69,
+  "count": 70,
   "data": [
+    {
+      "date": "19.11.2025 16:50:01",
+      "name": "Бутова Алиса Дмитриевна",
+      "phone": "79869804138",
+      "age": "20",
+      "conferenceDay": "29 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "laalisala",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 15:42:48",
       "name": "Селиверстова Арина Александровна",
@@ -765,14 +776,14 @@
   "stats": {
     "under18": 26,
     "day28": 5,
-    "day29": 1,
+    "day29": 2,
     "both": 63,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 8 ч. 17 мин."
+      "message": "6 дн. 7 ч. 9 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T15:42:48.591Z"
+    "lastUpdate": "2025-11-19T16:50:01.780Z"
   }
 }
