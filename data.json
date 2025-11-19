@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 63,
+  "count": 64,
   "data": [
+    {
+      "date": "19.11.2025 06:28:32",
+      "name": "Быстрова Анастасия Дмитриевна",
+      "phone": "+79869827020",
+      "age": "22",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Nastya220000",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 06:09:39",
       "name": "Ротекер Ариана Августовна",
@@ -698,15 +709,15 @@
   ],
   "stats": {
     "under18": 22,
-    "day28": 4,
+    "day28": 5,
     "day29": 1,
     "both": 58,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 17 ч. 50 мин."
+      "message": "0 дн. 17 ч. 31 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T06:09:39.325Z"
+    "lastUpdate": "2025-11-19T06:28:32.847Z"
   }
 }
