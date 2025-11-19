@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 66,
+  "count": 67,
   "data": [
+    {
+      "date": "19.11.2025 07:21:41",
+      "name": "Куликов Давид Михайлович",
+      "phone": "89030236090",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Lelik_engels",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 07:20:52",
       "name": "Куликов Михаил Михайлович",
@@ -730,16 +741,16 @@
     }
   ],
   "stats": {
-    "under18": 24,
+    "under18": 25,
     "day28": 5,
     "day29": 1,
-    "both": 60,
+    "both": 61,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 16 ч. 39 мин."
+      "message": "0 дн. 16 ч. 38 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T07:20:52.934Z"
+    "lastUpdate": "2025-11-19T07:21:41.372Z"
   }
 }
