@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 62,
+  "count": 63,
   "data": [
+    {
+      "date": "19.11.2025 06:09:39",
+      "name": "Ротекер Ариана Августовна",
+      "phone": "79020422195",
+      "age": "22",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Aria3l",
+      "notes": ""
+    },
     {
       "date": "18.11.2025 14:23:35",
       "name": "Курина Мария Александровна",
@@ -689,13 +700,13 @@
     "under18": 22,
     "day28": 4,
     "day29": 1,
-    "both": 57,
+    "both": 58,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 9 ч. 36 мин."
+      "message": "0 дн. 17 ч. 50 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-18T14:23:35.975Z"
+    "lastUpdate": "2025-11-19T06:09:39.325Z"
   }
 }
