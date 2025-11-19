@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 65,
+  "count": 66,
   "data": [
+    {
+      "date": "19.11.2025 07:20:52",
+      "name": "Куликов Михаил Михайлович",
+      "phone": "79030236090",
+      "age": "7",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Lelik_engels",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 07:19:29",
       "name": "Куликова Дарья Михайловна",
@@ -719,16 +730,16 @@
     }
   ],
   "stats": {
-    "under18": 23,
+    "under18": 24,
     "day28": 5,
     "day29": 1,
-    "both": 59,
+    "both": 60,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 16 ч. 40 мин."
+      "message": "0 дн. 16 ч. 39 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T07:19:29.515Z"
+    "lastUpdate": "2025-11-19T07:20:52.934Z"
   }
 }
