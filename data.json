@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 72,
+  "count": 73,
   "data": [
+    {
+      "date": "19.11.2025 19:25:59",
+      "name": "Красноштан Иван Юрьевич",
+      "phone": "79290188225",
+      "age": "33",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Buh9I",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 18:38:28",
       "name": "Кабицкая Виктория Викторовна",
@@ -799,13 +810,13 @@
     "under18": 28,
     "day28": 6,
     "day29": 2,
-    "both": 64,
-    "accommodation": 21,
+    "both": 65,
+    "accommodation": 22,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 5 ч. 21 мин."
+      "message": "6 дн. 4 ч. 34 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T18:38:28.962Z"
+    "lastUpdate": "2025-11-19T19:25:59.959Z"
   }
 }
