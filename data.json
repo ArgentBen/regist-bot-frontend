@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 71,
+  "count": 72,
   "data": [
+    {
+      "date": "19.11.2025 18:38:28",
+      "name": "Кабицкая Виктория Викторовна",
+      "phone": "+7 904 438-40-07",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "@Ulanalobanova",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 17:49:47",
       "name": "Арсентьева Виктория Дмитриевна",
@@ -785,16 +796,16 @@
     }
   ],
   "stats": {
-    "under18": 27,
+    "under18": 28,
     "day28": 6,
     "day29": 2,
-    "both": 63,
-    "accommodation": 20,
+    "both": 64,
+    "accommodation": 21,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 6 ч. 10 мин."
+      "message": "6 дн. 5 ч. 21 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T17:49:47.810Z"
+    "lastUpdate": "2025-11-19T18:38:28.962Z"
   }
 }
