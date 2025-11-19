@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 67,
+  "count": 68,
   "data": [
+    {
+      "date": "19.11.2025 07:22:22",
+      "name": "Куликова Елизавета Михайловна",
+      "phone": "89616417636",
+      "age": "13",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Lelik_engels",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 07:21:41",
       "name": "Куликов Давид Михайлович",
@@ -741,16 +752,16 @@
     }
   ],
   "stats": {
-    "under18": 25,
+    "under18": 26,
     "day28": 5,
     "day29": 1,
-    "both": 61,
+    "both": 62,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 16 ч. 38 мин."
+      "message": "0 дн. 16 ч. 37 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T07:21:41.372Z"
+    "lastUpdate": "2025-11-19T07:22:22.136Z"
   }
 }
