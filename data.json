@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 64,
+  "count": 65,
   "data": [
+    {
+      "date": "19.11.2025 07:19:29",
+      "name": "Куликова Дарья Михайловна",
+      "phone": "+79093393664",
+      "age": "17",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Lelik_engels",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 06:28:32",
       "name": "Быстрова Анастасия Дмитриевна",
@@ -708,16 +719,16 @@
     }
   ],
   "stats": {
-    "under18": 22,
+    "under18": 23,
     "day28": 5,
     "day29": 1,
-    "both": 58,
+    "both": 59,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 17 ч. 31 мин."
+      "message": "0 дн. 16 ч. 40 мин."
     },
     "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T06:28:32.847Z"
+    "lastUpdate": "2025-11-19T07:19:29.515Z"
   }
 }
