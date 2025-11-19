@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 68,
+  "count": 69,
   "data": [
+    {
+      "date": "19.11.2025 15:42:48",
+      "name": "Селиверстова Арина Александровна",
+      "phone": "79539775696",
+      "age": "19",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "tmr_glader",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 07:22:22",
       "name": "Куликова Елизавета Михайловна",
@@ -755,13 +766,13 @@
     "under18": 26,
     "day28": 5,
     "day29": 1,
-    "both": 62,
+    "both": 63,
     "accommodation": 20,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 9 ч. 10 мин."
+      "message": "6 дн. 8 ч. 17 мин."
     },
-    "endDate": "2025-11-20T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T07:22:22.136Z"
+    "endDate": "2025-11-26T00:00:00.000Z",
+    "lastUpdate": "2025-11-19T15:42:48.591Z"
   }
 }
