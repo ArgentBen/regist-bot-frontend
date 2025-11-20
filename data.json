@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 76,
+  "count": 77,
   "data": [
+    {
+      "date": "20.11.2025 18:30:37",
+      "name": "Закиева Мира Артемовна",
+      "phone": "79063111700",
+      "age": "12",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id776390785",
+      "notes": ""
+    },
     {
       "date": "20.11.2025 18:29:20",
       "name": "Басов Кирилл Иванович",
@@ -840,16 +851,16 @@
     }
   ],
   "stats": {
-    "under18": 30,
+    "under18": 31,
     "day28": 7,
     "day29": 3,
-    "both": 66,
-    "accommodation": 22,
+    "both": 67,
+    "accommodation": 23,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 5 ч. 30 мин."
+      "message": "5 дн. 5 ч. 29 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-20T18:29:20.018Z"
+    "lastUpdate": "2025-11-20T18:30:37.856Z"
   }
 }
