@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 73,
+  "count": 74,
   "data": [
+    {
+      "date": "20.11.2025 10:16:50",
+      "name": "Курников Евгений Александрович",
+      "phone": "79873766126",
+      "age": "25",
+      "conferenceDay": "29 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "SRT_evgeniy_kurnikov",
+      "notes": ""
+    },
     {
       "date": "19.11.2025 19:25:59",
       "name": "Красноштан Иван Юрьевич",
@@ -809,14 +820,14 @@
   "stats": {
     "under18": 28,
     "day28": 6,
-    "day29": 2,
+    "day29": 3,
     "both": 65,
     "accommodation": 22,
     "remainingTime": {
       "closed": false,
-      "message": "6 дн. 4 ч. 34 мин."
+      "message": "5 дн. 13 ч. 43 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-19T19:25:59.959Z"
+    "lastUpdate": "2025-11-20T10:16:50.627Z"
   }
 }
