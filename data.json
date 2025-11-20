@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 74,
+  "count": 75,
   "data": [
+    {
+      "date": "20.11.2025 10:46:36",
+      "name": "Шаповалов Родион Витальевич",
+      "phone": "79966264567",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id7211029128",
+      "notes": ""
+    },
     {
       "date": "20.11.2025 10:16:50",
       "name": "Курников Евгений Александрович",
@@ -818,16 +829,16 @@
     }
   ],
   "stats": {
-    "under18": 28,
+    "under18": 29,
     "day28": 6,
     "day29": 3,
-    "both": 65,
+    "both": 66,
     "accommodation": 22,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 13 ч. 43 мин."
+      "message": "5 дн. 13 ч. 13 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-20T10:16:50.627Z"
+    "lastUpdate": "2025-11-20T10:46:36.070Z"
   }
 }
