@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 77,
+  "count": 78,
   "data": [
+    {
+      "date": "20.11.2025 18:31:35",
+      "name": "Закиев Арсений Артемович",
+      "phone": "89063111700",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id776390785",
+      "notes": ""
+    },
     {
       "date": "20.11.2025 18:30:37",
       "name": "Закиева Мира Артемовна",
@@ -851,16 +862,16 @@
     }
   ],
   "stats": {
-    "under18": 31,
+    "under18": 32,
     "day28": 7,
     "day29": 3,
-    "both": 67,
-    "accommodation": 23,
+    "both": 68,
+    "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 5 ч. 29 мин."
+      "message": "5 дн. 5 ч. 28 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-20T18:30:37.856Z"
+    "lastUpdate": "2025-11-20T18:31:35.760Z"
   }
 }
