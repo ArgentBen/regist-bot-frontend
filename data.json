@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 79,
+  "count": 80,
   "data": [
+    {
+      "date": "21.11.2025 06:19:09",
+      "name": "Ситник Михаил Андреевич",
+      "phone": "+7 (919) 832-68-04",
+      "age": "25",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "id892753957",
+      "notes": ""
+    },
     {
       "date": "21.11.2025 06:12:39",
       "name": "Ситник Арина Викторовна",
@@ -876,13 +887,13 @@
     "under18": 32,
     "day28": 7,
     "day29": 3,
-    "both": 69,
+    "both": 70,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 17 ч. 47 мин."
+      "message": "4 дн. 17 ч. 40 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-21T06:12:39.869Z"
+    "lastUpdate": "2025-11-21T06:19:09.363Z"
   }
 }
