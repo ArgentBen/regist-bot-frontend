@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 78,
+  "count": 79,
   "data": [
+    {
+      "date": "21.11.2025 06:12:39",
+      "name": "Ситник Арина Викторовна",
+      "phone": "89536352723",
+      "age": "24",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "id892753957",
+      "notes": ""
+    },
     {
       "date": "20.11.2025 18:31:35",
       "name": "Закиев Арсений Артемович",
@@ -865,13 +876,13 @@
     "under18": 32,
     "day28": 7,
     "day29": 3,
-    "both": 68,
+    "both": 69,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "5 дн. 5 ч. 28 мин."
+      "message": "4 дн. 17 ч. 47 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-20T18:31:35.760Z"
+    "lastUpdate": "2025-11-21T06:12:39.869Z"
   }
 }
