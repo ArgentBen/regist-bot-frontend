@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 82,
+  "count": 83,
   "data": [
+    {
+      "date": "23.11.2025 19:27:00",
+      "name": "Шерстюков Геннадий Олегович",
+      "phone": "+79379777863",
+      "age": "17",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "v1vovor",
+      "notes": ""
+    },
     {
       "date": "23.11.2025 19:09:31",
       "name": "Шерстюков Яков Олегович",
@@ -906,16 +917,16 @@
     }
   ],
   "stats": {
-    "under18": 33,
+    "under18": 34,
     "day28": 7,
     "day29": 3,
-    "both": 72,
+    "both": 73,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 4 ч. 50 мин."
+      "message": "2 дн. 4 ч. 32 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-23T19:09:31.222Z"
+    "lastUpdate": "2025-11-23T19:27:00.809Z"
   }
 }
