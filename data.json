@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 80,
+  "count": 81,
   "data": [
+    {
+      "date": "23.11.2025 17:21:35",
+      "name": "Шерстюкова Мария Олеговна",
+      "phone": "79093357965",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Marir_k",
+      "notes": ""
+    },
     {
       "date": "21.11.2025 06:19:09",
       "name": "Ситник Михаил Андреевич",
@@ -884,16 +895,16 @@
     }
   ],
   "stats": {
-    "under18": 32,
+    "under18": 33,
     "day28": 7,
     "day29": 3,
-    "both": 70,
+    "both": 71,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "4 дн. 17 ч. 40 мин."
+      "message": "2 дн. 6 ч. 38 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-21T06:19:09.363Z"
+    "lastUpdate": "2025-11-23T17:21:35.683Z"
   }
 }
