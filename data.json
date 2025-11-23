@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 81,
+  "count": 82,
   "data": [
+    {
+      "date": "23.11.2025 19:09:31",
+      "name": "Шерстюков Яков Олегович",
+      "phone": "79061533944",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "Sokolbike",
+      "notes": ""
+    },
     {
       "date": "23.11.2025 17:21:35",
       "name": "Шерстюкова Мария Олеговна",
@@ -898,13 +909,13 @@
     "under18": 33,
     "day28": 7,
     "day29": 3,
-    "both": 71,
+    "both": 72,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 6 ч. 38 мин."
+      "message": "2 дн. 4 ч. 50 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-23T17:21:35.683Z"
+    "lastUpdate": "2025-11-23T19:09:31.222Z"
   }
 }
