@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 87,
+  "count": 88,
   "data": [
+    {
+      "date": "24.11.2025 16:19:49",
+      "name": "Фролов Антон Александрович",
+      "phone": "89053280246",
+      "age": "14",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "@Alex_Fr_A",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 16:18:43",
       "name": "Евгения Фролова Юрьевна",
@@ -961,16 +972,16 @@
     }
   ],
   "stats": {
-    "under18": 36,
+    "under18": 37,
     "day28": 8,
     "day29": 3,
-    "both": 76,
-    "accommodation": 24,
+    "both": 77,
+    "accommodation": 25,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 7 ч. 41 мин."
+      "message": "1 дн. 7 ч. 40 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T16:18:43.204Z"
+    "lastUpdate": "2025-11-24T16:19:49.337Z"
   }
 }
