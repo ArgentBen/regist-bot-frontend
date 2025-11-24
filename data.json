@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 85,
+  "count": 86,
   "data": [
+    {
+      "date": "24.11.2025 12:05:02",
+      "name": "Петинина Надежда Дмитриевна",
+      "phone": "79198279964",
+      "age": "79001656530",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Petinina_Katya",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 10:54:16",
       "name": "Дубовик Элина Анатольевна",
@@ -940,15 +951,15 @@
   ],
   "stats": {
     "under18": 36,
-    "day28": 7,
+    "day28": 8,
     "day29": 3,
     "both": 75,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 13 ч. 5 мин."
+      "message": "1 дн. 11 ч. 54 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T10:54:16.967Z"
+    "lastUpdate": "2025-11-24T12:05:02.316Z"
   }
 }
