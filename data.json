@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 89,
+  "count": 90,
   "data": [
+    {
+      "date": "24.11.2025 20:07:49",
+      "name": "Подолинская Екатерина Сергеевна",
+      "phone": "79179711549",
+      "age": "23",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "catherine_podolinskaya",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 16:31:03",
       "name": "Сучков Давид Михайлович",
@@ -984,15 +995,15 @@
   ],
   "stats": {
     "under18": 37,
-    "day28": 8,
+    "day28": 9,
     "day29": 3,
     "both": 78,
     "accommodation": 26,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 7 ч. 28 мин."
+      "message": "1 дн. 3 ч. 52 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T16:31:03.813Z"
+    "lastUpdate": "2025-11-24T20:07:49.286Z"
   }
 }
