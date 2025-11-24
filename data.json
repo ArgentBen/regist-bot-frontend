@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 83,
+  "count": 84,
   "data": [
+    {
+      "date": "24.11.2025 06:32:30",
+      "name": "Москалев Роман Игоревич",
+      "phone": "89063001623",
+      "age": "15",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id5416161309",
+      "notes": ""
+    },
     {
       "date": "23.11.2025 19:27:00",
       "name": "Шерстюков Геннадий Олегович",
@@ -917,16 +928,16 @@
     }
   ],
   "stats": {
-    "under18": 34,
+    "under18": 35,
     "day28": 7,
     "day29": 3,
-    "both": 73,
+    "both": 74,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 4 ч. 32 мин."
+      "message": "1 дн. 17 ч. 27 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-23T19:27:00.809Z"
+    "lastUpdate": "2025-11-24T06:32:30.680Z"
   }
 }
