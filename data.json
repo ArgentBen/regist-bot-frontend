@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 86,
+  "count": 87,
   "data": [
+    {
+      "date": "24.11.2025 16:18:43",
+      "name": "Евгения Фролова Юрьевна",
+      "phone": "89198339181",
+      "age": "39",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "@Alex_Fr_A",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 12:05:02",
       "name": "Петинина Надежда Дмитриевна",
@@ -953,13 +964,13 @@
     "under18": 36,
     "day28": 8,
     "day29": 3,
-    "both": 75,
+    "both": 76,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 11 ч. 54 мин."
+      "message": "1 дн. 7 ч. 41 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T12:05:02.316Z"
+    "lastUpdate": "2025-11-24T16:18:43.204Z"
   }
 }
