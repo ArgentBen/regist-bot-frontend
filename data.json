@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 88,
+  "count": 89,
   "data": [
+    {
+      "date": "24.11.2025 16:31:03",
+      "name": "Сучков Давид Михайлович",
+      "phone": "79658890520",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "Cyber0David",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 16:19:49",
       "name": "Фролов Антон Александрович",
@@ -975,13 +986,13 @@
     "under18": 37,
     "day28": 8,
     "day29": 3,
-    "both": 77,
-    "accommodation": 25,
+    "both": 78,
+    "accommodation": 26,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 7 ч. 40 мин."
+      "message": "1 дн. 7 ч. 28 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T16:19:49.337Z"
+    "lastUpdate": "2025-11-24T16:31:03.813Z"
   }
 }
