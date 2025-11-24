@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 84,
+  "count": 85,
   "data": [
+    {
+      "date": "24.11.2025 10:54:16",
+      "name": "Дубовик Элина Анатольевна",
+      "phone": "89678034658",
+      "age": "12",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "Krasota_volos_Engels",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 06:32:30",
       "name": "Москалев Роман Игоревич",
@@ -928,16 +939,16 @@
     }
   ],
   "stats": {
-    "under18": 35,
+    "under18": 36,
     "day28": 7,
     "day29": 3,
-    "both": 74,
+    "both": 75,
     "accommodation": 24,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 17 ч. 27 мин."
+      "message": "1 дн. 13 ч. 5 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T06:32:30.680Z"
+    "lastUpdate": "2025-11-24T10:54:16.967Z"
   }
 }
