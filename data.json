@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 90,
+  "count": 91,
   "data": [
+    {
+      "date": "25.11.2025 18:34:30",
+      "name": "Милованова Светлана Николаевна",
+      "phone": "89603503776",
+      "age": "47",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id776390785",
+      "notes": ""
+    },
     {
       "date": "24.11.2025 20:07:49",
       "name": "Подолинская Екатерина Сергеевна",
@@ -997,13 +1008,13 @@
     "under18": 37,
     "day28": 9,
     "day29": 3,
-    "both": 78,
-    "accommodation": 26,
+    "both": 79,
+    "accommodation": 27,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 3 ч. 52 мин."
+      "message": "0 дн. 5 ч. 25 мин."
     },
     "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-24T20:07:49.286Z"
+    "lastUpdate": "2025-11-25T18:34:30.389Z"
   }
 }
