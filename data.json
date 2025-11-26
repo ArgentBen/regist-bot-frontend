@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 92,
+  "count": 93,
   "data": [
+    {
+      "date": "26.11.2025 17:45:18",
+      "name": "Мартынович Николай Андреевич",
+      "phone": "8 919 837 10 91",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id7900659188",
+      "notes": ""
+    },
     {
       "date": "26.11.2025 09:58:39",
       "name": "Раджабов Сергей Васильевич",
@@ -1019,13 +1030,13 @@
     "under18": 37,
     "day28": 9,
     "day29": 3,
-    "both": 80,
+    "both": 81,
     "accommodation": 28,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 14 ч. 1 мин."
+      "message": "3 дн. 6 ч. 14 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-26T09:58:39.810Z"
+    "lastUpdate": "2025-11-26T17:45:19.020Z"
   }
 }
