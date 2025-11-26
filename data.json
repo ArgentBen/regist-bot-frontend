@@ -3,6 +3,17 @@
   "count": 92,
   "data": [
     {
+      "date": "26.11.2025 09:58:39",
+      "name": "Раджабов Сергей Васильевич",
+      "phone": "79603497707",
+      "age": "21",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата по карте",
+      "telegram": "Oh_serenya",
+      "notes": ""
+    },
+    {
       "date": "25.11.2025 18:34:30",
       "name": "Милованова Светлана Николаевна",
       "phone": "89603503776",
@@ -1009,12 +1020,12 @@
     "day28": 9,
     "day29": 3,
     "both": 80,
-    "accommodation": 27,
+    "accommodation": 28,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 16 ч. 39 мин."
+      "message": "3 дн. 14 ч. 1 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-26T07:20:45.255Z"
+    "lastUpdate": "2025-11-26T09:58:39.810Z"
   }
 }
