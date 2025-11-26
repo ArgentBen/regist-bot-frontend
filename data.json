@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 91,
+  "count": 92,
   "data": [
+    {
+      "date": "26.11.2025 07:20:45",
+      "name": "проверка",
+      "phone": "+79889213228",
+      "age": "99",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "BenjARG",
+      "notes": ""
+    },
     {
       "date": "25.11.2025 18:34:30",
       "name": "Милованова Светлана Николаевна",
@@ -1008,13 +1019,13 @@
     "under18": 37,
     "day28": 9,
     "day29": 3,
-    "both": 79,
+    "both": 80,
     "accommodation": 27,
     "remainingTime": {
       "closed": false,
-      "message": "0 дн. 5 ч. 25 мин."
+      "message": "3 дн. 16 ч. 39 мин."
     },
-    "endDate": "2025-11-26T00:00:00.000Z",
-    "lastUpdate": "2025-11-25T18:34:30.389Z"
+    "endDate": "2025-11-30T00:00:00.000Z",
+    "lastUpdate": "2025-11-26T07:20:45.255Z"
   }
 }
