@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 94,
+  "count": 95,
   "data": [
+    {
+      "date": "26.11.2025 22:07:56",
+      "name": "Сухой Андрей Александрович",
+      "phone": "89003115034",
+      "age": "18",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "AndreyDry2007",
+      "notes": ""
+    },
     {
       "date": "26.11.2025 17:47:58",
       "name": "Мартынович Светлана Андреевна",
@@ -1041,13 +1052,13 @@
     "under18": 38,
     "day28": 9,
     "day29": 3,
-    "both": 82,
+    "both": 83,
     "accommodation": 28,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 6 ч. 12 мин."
+      "message": "3 дн. 1 ч. 52 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-26T17:47:58.942Z"
+    "lastUpdate": "2025-11-26T22:07:56.326Z"
   }
 }
