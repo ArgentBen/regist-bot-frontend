@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 93,
+  "count": 94,
   "data": [
+    {
+      "date": "26.11.2025 17:47:58",
+      "name": "Мартынович Светлана Андреевна",
+      "phone": "8 919 837 10 91",
+      "age": "13",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата наличными на месте",
+      "telegram": "id7900659188",
+      "notes": ""
+    },
     {
       "date": "26.11.2025 17:45:18",
       "name": "Мартынович Николай Андреевич",
@@ -1027,16 +1038,16 @@
     }
   ],
   "stats": {
-    "under18": 37,
+    "under18": 38,
     "day28": 9,
     "day29": 3,
-    "both": 81,
+    "both": 82,
     "accommodation": 28,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 6 ч. 14 мин."
+      "message": "3 дн. 6 ч. 12 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-26T17:45:19.020Z"
+    "lastUpdate": "2025-11-26T17:47:58.942Z"
   }
 }
