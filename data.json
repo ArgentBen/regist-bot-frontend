@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 95,
+  "count": 96,
   "data": [
+    {
+      "date": "27.11.2025 10:03:44",
+      "name": "Подоплелова Алёна Евгеньевна",
+      "phone": "89085494633",
+      "age": "24",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "podoplelova13",
+      "notes": ""
+    },
     {
       "date": "26.11.2025 22:07:56",
       "name": "Сухой Андрей Александрович",
@@ -1052,13 +1063,13 @@
     "under18": 38,
     "day28": 9,
     "day29": 3,
-    "both": 83,
+    "both": 84,
     "accommodation": 28,
     "remainingTime": {
       "closed": false,
-      "message": "3 дн. 1 ч. 52 мин."
+      "message": "2 дн. 13 ч. 56 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-26T22:07:56.326Z"
+    "lastUpdate": "2025-11-27T10:03:44.131Z"
   }
 }
