@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 96,
+  "count": 97,
   "data": [
+    {
+      "date": "27.11.2025 12:39:04",
+      "name": "Корягина Полина Алексеевна",
+      "phone": "79379729993",
+      "age": "20",
+      "conferenceDay": "28-29 ноября (оба дня)",
+      "accommodation": "Да",
+      "payment": "Оплата наличными на месте",
+      "telegram": "polinkss_17",
+      "notes": ""
+    },
     {
       "date": "27.11.2025 10:03:44",
       "name": "Подоплелова Алёна Евгеньевна",
@@ -1063,13 +1074,13 @@
     "under18": 38,
     "day28": 9,
     "day29": 3,
-    "both": 84,
-    "accommodation": 28,
+    "both": 85,
+    "accommodation": 29,
     "remainingTime": {
       "closed": false,
-      "message": "2 дн. 13 ч. 56 мин."
+      "message": "2 дн. 11 ч. 20 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-27T10:03:44.131Z"
+    "lastUpdate": "2025-11-27T12:39:04.187Z"
   }
 }
