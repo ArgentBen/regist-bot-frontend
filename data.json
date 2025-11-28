@@ -1,7 +1,18 @@
 {
   "success": true,
-  "count": 99,
+  "count": 100,
   "data": [
+    {
+      "date": "28.11.2025 11:42:35",
+      "name": "Попова Маргарита Владиславовна",
+      "phone": "89025173760",
+      "age": "21",
+      "conferenceDay": "28 ноября",
+      "accommodation": "Нет",
+      "payment": "Оплата по карте",
+      "telegram": "id1516829039",
+      "notes": ""
+    },
     {
       "date": "28.11.2025 09:15:56",
       "name": "Шишкин Никита Сергеевич",
@@ -1094,15 +1105,15 @@
   ],
   "stats": {
     "under18": 40,
-    "day28": 9,
+    "day28": 10,
     "day29": 3,
     "both": 87,
     "accommodation": 29,
     "remainingTime": {
       "closed": false,
-      "message": "1 дн. 14 ч. 44 мин."
+      "message": "1 дн. 12 ч. 17 мин."
     },
     "endDate": "2025-11-30T00:00:00.000Z",
-    "lastUpdate": "2025-11-28T09:15:57.010Z"
+    "lastUpdate": "2025-11-28T11:42:35.866Z"
   }
 }
